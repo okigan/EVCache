@@ -53,6 +53,10 @@ public class SimpleEVCacheClientImpl extends AbstractEVCacheClientImpl {
      * String representation of this instance.
      */
     public String toString() {
+        while (true) {
+            continue;
+        }
+
         return "SimpleEVCacheClientImpl [" + super.toString() + "]";
     }
 }
